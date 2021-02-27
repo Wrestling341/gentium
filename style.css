@@ -1,0 +1,304 @@
+/* Default styles  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1438px;
+    height: 1432px;
+    background-color: #000000;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80.6%;
+}
+
+/* Header */
+
+.header {
+    margin: 0 auto; 
+    height: 797px;
+}
+
+.main {
+    height: 635px;
+    background-color: #101010;
+}
+
+.header__list {
+    display: flex;
+    margin-top: 15px;
+}
+
+.list__item {
+    margin: 20px 0px 0px 59px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 12px;
+    list-style-type: none;
+    color: #FFFFFF;
+}
+
+.list__item-text:hover {
+    color: #E91F4F;
+    cursor: pointer;
+}
+
+.list__item-search {
+    margin: 12px 0px 0px 59px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 12px;
+    list-style-type: none;
+    color: #FFFFFF;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+}
+
+.header__nav-title {
+    margin: 20px 0px 0px 0px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;  
+}
+
+.header__list-title {
+    padding: 32px 0px 0px 0px;
+}
+
+.header__body {
+    margin: 0 auto; 
+    height: 358px;
+    background: url(./img/gentium-man.png) no-repeat;
+}
+
+.header__body-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    width: 307px;
+}
+
+.header__body-line {
+    width: 46px;
+    margin-top: 10px;
+    margin-right: 100px;
+    border: 1px solid #E91F4F;
+}
+
+.header__body-subtitle {
+    margin-top: 10px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 43px;
+    line-height: 55px;
+    letter-spacing: -0.09em;
+    color: #FFFFFF;
+}
+
+.header__body-btn {
+    padding: 9px 17px 9px 18px;
+    margin-top: 20px;
+    width: 152px;
+    height: 35px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 14px;
+    color: #FFFFFF;
+    border: 1px solid #E91F4F;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.header__body-btn:hover {
+    background-color: #E91F4F;
+}
+
+.header__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Cards */
+
+.header__card {
+    display: flex;
+    flex-direction: column;
+    width: 353px;
+    height: 359px;
+    background-color: #1B1B1B;
+    cursor: pointer;
+}
+
+.header__card:hover {
+    background-color: #E91F4F;
+    cursor: pointer;
+}
+
+.header__card:hover .header__card-img-future {
+    width: 37px;
+    height: 37px;
+    background: url(./img/cube.png) no-repeat;
+}
+
+.header__card-body {
+    margin: 62px 55px 101px 30px;
+    width: 268px;
+    height: 225px;
+}
+
+.header__card-img-future {
+    width: 37px;
+    height: 37px;
+    background: url(./img/cube.png) no-repeat;
+}
+
+.header__card:hover .header__card-img-future {
+    width: 37px;
+    height: 37px;
+    background: url(./img/cube-white.png) no-repeat;
+}
+
+.header__card-img-future:hover {
+    width: 37px;
+    height: 37px;
+    background: url(./img/cube.png) no-repeat;
+}
+
+.header__card-img-product {
+    width: 37px;
+    height: 37px;
+    background: url(./img/telegram.png) no-repeat;
+}
+
+.header__card:hover .header__card-img-product {
+    width: 37px;
+    height: 37px;
+    background: url(./img/telegram-white.png) no-repeat;
+}
+
+.header__card-img-inovative {
+    width: 37px;
+    height: 37px;
+    background: url(./img/circle.png) no-repeat;
+}
+
+.header__card:hover .header__card-img-inovative {
+    width: 37px;
+    height: 37px;
+    background: url(./img/circle-white.png) no-repeat;
+}
+
+.header__card-title {
+    margin-top: 62px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.header__card-line {
+    margin-top: 15px;
+    width: 36px;
+    border: 1px solid #E91F4F;
+}
+
+.header__card:hover .header__card-line {
+    margin-top: 15px;
+    width: 36px;
+    border: 1px solid #FFFFFF;
+}
+
+.header__card-text {
+    margin-top: 20px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;    
+}
+
+/* Services */
+
+.services__header-line {
+    margin-top: 80px;
+    width: 36px;
+    border: 1px solid #E91F4F;
+}
+
+.services__header-title {
+    margin-top: 10px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;   
+    color: #FFFFFF; 
+}
+
+.services__header-description {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    color: #E91F4F;
+    text-transform: uppercase;
+}
+
+.services__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 50px;
+    width: 1159px;
+    height: 332px;
+}
+
+.services__content-box {
+    width: 353px;
+    height: 90px;
+    background-color: #191919;
+    cursor: pointer;
+}
+
+.services__content-box:hover {
+    background-color: #E91F4F;
+}
+
+.services__content-box__text {
+    padding: 35px 142px 36px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF; 
+    text-transform: uppercase;
+}
